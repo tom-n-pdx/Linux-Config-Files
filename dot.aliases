@@ -1,0 +1,28 @@
+##########
+#
+# .aliases	Default user's .aliases file
+#
+########
+#
+#   This file defines shortcuts and remappings. All entries are in the
+# form:  alias <alias>  <command>    as shown below.
+#
+
+alias cls	'clear'
+alias cl	'rm *~'
+alias cp	'cp -i'
+alias disp	'setenv DISPLAY'
+alias jobs	'jobs -l'
+alias ls	'ls -F'
+alias la	'ls -a'
+alias ll	'ls -Flags'
+alias lf	'ls -F'
+# alias md	'mkdir'
+alias mv	'mv -i'
+# alias rd	'rmdir'
+# alias rm	'rm -i'
+
+#
+# Tom added
+#
+alias gmake	'make'

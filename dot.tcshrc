@@ -1,0 +1,28 @@
+##########
+#
+# .tshrc   Default user .tcshrc
+#
+########
+
+#
+# Warning: This line gives you the standard user environment. Removing
+#          it will render many tools non-functional and any problems will
+#          become your responsibility.
+#
+
+source /usr/local/lib/user-env/Cshrc
+
+
+#
+# Read in user's .aliases file, if exists
+#
+
+if ( -f ~/.aliases ) source ~/.aliases
+
+#
+# Tcsh modifications
+#
+
+# Maybe add /opt/csw/gcc4/info
+
+#setenv INFOPATH /opt/csw/gcc4/info:/usr/local/info:/pkgs/gnu/info

@@ -1,0 +1,8 @@
+# Ignote Git Ignore File
+.gitignore
+
+# Output files
+*.out
+
+# Emacs Backyp Files
+*~
