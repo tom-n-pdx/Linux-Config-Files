@@ -10,7 +10,9 @@
 #          become your responsibility.
 #
 
-source /usr/local/lib/user-env/Cshrc
+# Required on Sparc but not elsewhere
+#
+if (-f /usr/local/lib/user-env/Cshrc) source /usr/local/lib/user-env/Cshrc
 
 #
 # Read in user's .aliases file, if exists

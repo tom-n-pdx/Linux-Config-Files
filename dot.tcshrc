@@ -5,13 +5,17 @@
 ########
 
 #
+# ToDo
+# Only display host if NOT this one
+#
+
+#
 # Warning: This line gives you the standard user environment. Removing
 #          it will render many tools non-functional and any problems will
 #          become your responsibility.
 #
 
-source /usr/local/lib/user-env/Cshrc
-
+if ( -f /usr/local/lib/user-env/Cshrc) source /usr/local/lib/user-env/Cshrc
 
 #
 # Read in user's .aliases file, if exists
@@ -26,3 +30,7 @@ if ( -f ~/.aliases ) source ~/.aliases
 # Maybe add /opt/csw/gcc4/info
 
 #setenv INFOPATH /opt/csw/gcc4/info:/usr/local/info:/pkgs/gnu/info
+
+# Prompt
+# Old %U%m%u:%B%~%b%#
+set prompt = "%m:%c %h %#"
