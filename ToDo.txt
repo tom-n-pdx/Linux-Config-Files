@@ -1,0 +1,7 @@
+To Do Stuff
+
+* Find old .tcshrc defines
+* Find old emacs defines
+* Fix prompt tcsh to only display machine name if remote login
+* Fix makefile to use vars for directory
+
