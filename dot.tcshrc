@@ -34,3 +34,6 @@ if ( -f ~/.aliases ) source ~/.aliases
 # Prompt
 # Old %U%m%u:%B%~%b%#
 set prompt = "%m:%c %h %#"
+
+setenv VISUAL emacs
+setenv EDITOR emacs

@@ -20,3 +20,6 @@ if (-f /usr/local/lib/user-env/Cshrc) source /usr/local/lib/user-env/Cshrc
 
 if ( -f ~/.aliases ) source ~/.aliases
 
+setenv VISUAL emacs
+setenv EDITOR emacs
+
