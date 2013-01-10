@@ -37,3 +37,10 @@ set prompt = "%m:%c %h %#"
 
 setenv VISUAL emacs
 setenv EDITOR emacs
+
+setenv PERL_LOCAL_LIB_ROOT "/u/tshott/Lib/perl5"
+setenv PERL_MB_OPT         "--install_base /u/tshott/Lib/perl5"
+setenv PERL_MM_OPT         "INSTALL_BASE=/u/tshott/Lib/perl5"
+setenv PERL5LIB            "/u/tshott/Lib/perl5/x86_64-linux-gnu-thread-multi:/u/tshott/perl5/lib/perl5"
+setenv PATH                "/u/tshott/Lib/perl5/bin:$PATH"
+
