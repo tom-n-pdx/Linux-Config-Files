@@ -1,9 +1,11 @@
 To Do Stuff
 
 * Save history for tcsh in file - grab from mac
-
 * Find old .tcshrc defines
 * Find old emacs defines
 * Fix prompt tcsh to only display machine name if remote login
 * Fix makefile to use vars for directory
+* Fix Makefile so can be located somewhere else in file tree. Use DIR valuable
+
+
 
