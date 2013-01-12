@@ -1,7 +1,7 @@
+# -*-Shell-script-*-
 ##########
 #
 # .tshrc   Default user .tcshrc
-#
 ########
 
 #
@@ -20,7 +20,6 @@ if ( -f /usr/local/lib/user-env/Cshrc) source /usr/local/lib/user-env/Cshrc
 #
 # Read in user's .aliases file, if exists
 #
-
 if ( -f ~/.aliases ) source ~/.aliases
 
 #
@@ -33,7 +32,10 @@ if ( -f ~/.aliases ) source ~/.aliases
 
 # Prompt
 # Old %U%m%u:%B%~%b%#
-set prompt = "%m:%c %h %#"
+set prompt = "%m:%c %h %# "
+set prompt = "%c %h %# "
+#set prompt = "%m [%h] %B[%@]%b [%/] you rang? "
+
 
 setenv VISUAL emacs
 setenv EDITOR emacs
@@ -43,4 +45,8 @@ setenv PERL_MB_OPT         "--install_base /u/tshott/Lib/perl5"
 setenv PERL_MM_OPT         "INSTALL_BASE=/u/tshott/Lib/perl5"
 setenv PERL5LIB            "/u/tshott/Lib/perl5/x86_64-linux-gnu-thread-multi:/u/tshott/perl5/lib/perl5"
 setenv PATH                "/u/tshott/Lib/perl5/bin:$PATH"
+
+
+# Add Private Bin
+setenv PATH                "/u/tshott/bin:$PATH"
 
